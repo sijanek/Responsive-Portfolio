@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../images/furley_bg/furley_bg/furley_bg.png');
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+    color: #777777;
+    margin:  0;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+header {
+    background: #ffffff;
+    border-bottom: 3px solid #cccccc;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+header h1 {
+    background-color: #4aaaa5;
+    color:#ffffff;
+    display: inline-block;
+    padding: 30px;
+}
+
+nav {
+    width: 300px;
+    float: right;
+    margin-top: 35px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+form label {
+    font-size: 18px;
+    display: block;
+}
+
+form input {
+    width: 100%;
+    display: block;
+    margin: 5px 0 20px 0;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    font-size: 16px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+}
+
+form button {
+background: #4aaaa5;
+color: #ffffff;
+padding: 10px 20px;
+margin: 10px 0;
+font-size: 18px;
+border: none;
+}
+
+nav a {
+  color: #777777;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+footer {
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding: 35px;
+    margin-top: 35px;
+    width: 100%; 
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.inline-img {
+    float: left;
+    margin: 0 15px 15px 0;
+    border: 1px solid #777777;
+}
+.portfolio-item {
+    position: relative;
+    margin-bottom: 20px;
+    width: 40%;
+    float: left;
+    height: 230px;
+}
+
+.portfolio-item:nth-of-type(even) {
+    float: right;
+}
+
+.portfolio-item h4 {
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 25px;
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+}
+
+#left-column {
+    background: #ffffff;
+    border: 2px solid #dddddd;
+    padding: 25px;
+    width: 960px;
+    float: left; 
+}
+
+#left-column h2 {
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #cccccc;
+}
+#image1 {
+    background: url('../images/image1.jpg');
+    background-size:  cover;
+    background-repeat: no-repeat;
+}
+
+#image2 {
+    background: url('../images/image2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#image3 {
+    background: url('../images/image3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    
+
+#image4 {
+    background: url('../images/image4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+#image5 {
+    background: url('../images/image5.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
