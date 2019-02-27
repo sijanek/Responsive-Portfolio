@@ -29,8 +29,8 @@ header h1 {
     display: inline-block;
     padding: 30px;
 }
-
-nav {
+    
+    nav {
     width: 300px;
     float: right;
     margin-top: 35px;
@@ -157,7 +157,7 @@ footer {
 #image4 {
     background: url('../images/image4.jpg');
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 
 #image5 {
@@ -165,3 +165,56 @@ footer {
     background-size:cover;
     background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 980px) {
+    .wrapper {
+        padding: 30px;
+        width: 95%;
+    }
+
+    #left-column {
+        padding-top: 60x;
+        width: 67%;
+    }
+}
+
+@media scren and (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+    }
+    #left-column {
+        width: 100%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 640px) {
+    header h1 {
+        position: static;
+        width: 100%;
+        margin-bottom: 20px 0;
+        padding: 30px;
+    }
+
+    .portfolio-item, .portfolio-item h4 {
+        width: 100%;
+    }
+
+    
+    nav {
+        text-align: center;
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    nav a {
+        width:30%;
+    }
+    
+
+}
+
+
+
